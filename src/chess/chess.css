@@ -1,0 +1,16 @@
+.board {
+	width: 480px;
+	height: 480px;
+	border: 10px solid black;
+	position: relative;
+}
+
+.board .piece {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	display: grid;
+	place-items: center;
+	font-size: 40px;
+	color: black;
+}
